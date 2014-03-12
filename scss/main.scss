@@ -1,0 +1,19 @@
+@import "compass/css3";
+@import "compass/utilities";
+@import "../js/bower/normalize-scss/_normalize.scss";
+
+@import "vars";      //global variables
+@import "base";      //native tag styling
+@import "visuals";   //video and background slider
+@import "universal"; //base styling for classes used in multiple places
+@import "footer";    //site footer
+
+//main page sections
+@import "home";
+@import "work";
+@import "services";
+@import "contact";
+@import "team";
+
+//navigation page for mobile
+@import "mobilenav";

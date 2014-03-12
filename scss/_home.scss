@@ -1,0 +1,49 @@
+//PAGE SECTIONS
+.home{
+    padding-top: 60px;
+    text-align: center;
+
+    @media screen and ( min-width: 800px ){
+        padding-top: 300px;
+    }
+
+    &.page{
+        border: none;
+    }
+
+    .button {
+        margin: 0 auto;
+        font-size: 1.2em;
+        padding: 6px 14px 14px 14px;
+        display: inline-block;
+    }
+}
+
+.intro{
+    text-align: center;
+    background: rgba( black, 0.45 );
+    border: 1px solid $white;
+    padding: 10px 10px 24px 10px;
+    margin: 0 auto;
+    position: relative;
+
+    @media screen and ( min-width: 800px ){
+        margin: 0;
+        
+        h2{
+            font-size: 2.2em;
+        }
+
+        .button{
+        }
+    }
+
+    @media screen and ( min-width: 900px ){
+        width: 578px;
+        margin: 0 auto;
+    }
+
+    h2{
+        margin: 0;
+    }
+}

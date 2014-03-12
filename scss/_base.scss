@@ -1,0 +1,31 @@
+body{
+    font: 100%/1.4 $copy, "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    color: $white;
+    background: black;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+    font-family: $titles, "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+a{
+    color: $white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &:hover{
+        color: $link;
+    }
+}
+
+.page{
+    // min-height: 700px;
+    // padding-bottom: 300px;
+}

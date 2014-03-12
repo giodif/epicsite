@@ -1,0 +1,51 @@
+.services{
+    @include clearfix;
+
+    ul, li{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: block;
+    }
+
+    ul ul{
+        @include clearfix;
+        width: 50%;
+        float: right;
+
+        @media screen and ( min-width: 1000px ){
+            width: 40%;
+        }
+
+        li{
+            width: 30%;
+            float: left;
+            padding-right: 2%;
+        }
+    }
+
+    .content{
+
+        @media screen and ( min-width: 1000px ){
+            width: 663px;
+            float: right;
+        }
+
+        > li{
+            padding-bottom: 60px;
+            @include clearfix;
+
+            @media screen and ( min-width: 1000px ){
+                padding-bottom: 80px;
+            }
+        }
+
+        h3{
+            background: $white;
+            color: $black;
+            margin-top: 0;
+            padding: 10px 20px 12px 20px;
+            display: inline-block;
+        }
+    }
+}

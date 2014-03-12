@@ -1,0 +1,11 @@
+{
+  "name": "epic-labs",
+  "version": "0.0.0",
+  "dependencies": {
+    "normalize-scss": "~2.1.0",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.9.1",
+    "html5Preloader.js": "https://github.com/jussi-kalliokoski/html5Preloader.js.git#~0.6.2",
+    "jasmine": "~2.0.0"
+  }
+}

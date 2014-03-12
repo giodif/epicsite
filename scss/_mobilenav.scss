@@ -1,0 +1,32 @@
+.navpagewrapper{
+    .logo{
+        width: 200px;
+        margin: 30px auto;
+        padding-bottom: 0;
+    }
+}
+
+.slidercontent{
+
+    &, li, ul{
+        position: fixed;
+        display: block;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+    }
+
+    li{
+        text-align: center;
+    }
+
+    img{
+        display: inline-block;
+        height: 100%;
+        width: auto;
+    }
+}

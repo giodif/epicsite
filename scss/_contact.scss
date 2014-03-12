@@ -1,0 +1,93 @@
+.contact{
+    .sectiontitle{
+        @media screen and ( min-width: 900px ){
+            float: right;
+            margin-bottom: 5px;
+            position: static;
+        }
+    }
+    .sectionsubtitle{
+
+        @media screen and ( min-width: 900px ){
+            float: right;
+            text-align: right;
+            clear: both;
+            width: 300px;
+            padding-bottom: 40px;
+        }
+    }
+    .sectioncontent{
+        clear: both;
+    }
+
+    &.page{
+        padding-bottom: 40px;
+    }
+}
+
+
+
+.contactform{
+    font-family: $titles, "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 0.85em;
+    display: block;
+    border: 1px solid $white;
+    background: rgba( $black, 0.4 );
+    padding: 10px 18px 18px 18px;
+    position: relative;
+    overflow: visible;
+
+    @media screen and ( min-width: 960px ){
+        width: 625px;
+    }
+
+    div{
+        @media screen and ( min-width: 800px ){
+            
+            &.text{
+                width: 49%;
+                float: left;
+
+                &:first-child{
+                    margin-right: 2%;
+                }
+            }
+
+            &.textarea{
+                padding-top: 20px;
+                width: 100%;
+                clear: both;
+            }
+        }
+    }
+
+    label{
+        display: block;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+    }
+
+    input, textarea{
+        display: block;
+        padding: 4px 8px 8px 8px;
+        margin: 0;
+        width: 100%;
+
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .button{
+        width: 60px;
+        position: absolute;
+        z-index: 10000;
+        right: -1px;
+        bottom: -35px;
+        font-size: 1.2em;
+        // padding: 0;
+    }
+}

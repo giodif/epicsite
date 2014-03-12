@@ -1,0 +1,68 @@
+.team{
+    @include clearfix;
+
+    ul, li{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: block;
+    }
+
+    li{
+        padding-bottom: 60px;
+    }
+
+    .content{
+
+        @media screen and ( min-width: 1500px ){
+            width: 1088px;
+        }
+
+        li{
+            @include clearfix;
+
+            @media screen and ( min-width: 1000px ){
+                display: inline-block;
+                vertical-align: top;
+                width: 45%;
+                padding-right: 2%;
+            }
+        }
+
+        .headshot{
+            display: block;
+            width: 50%;
+            max-width: 100%;
+            padding: 0 0 20px 0;
+            margin: 0;
+
+            @media screen and ( min-width: 1200px ){
+                float: left;
+                width: 45%;
+                padding-right: 4%;
+            }
+
+            img{
+                max-width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        .details{
+            @media screen and ( min-width: 1200px ){
+                float: left;
+                width: 50%;
+            }
+
+            h3{
+                margin-top: 0;
+            }
+            
+            a{
+                color: $link;
+                display: inline-block
+            }
+        }
+    }
+}

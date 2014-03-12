@@ -1,0 +1,11 @@
+.sass-cache/
+.grunt/
+dist/
+img/
+js/bower/
+mov/
+node_modules/
+specs/
+zip/
+SpecRunner.html
+notes.js
